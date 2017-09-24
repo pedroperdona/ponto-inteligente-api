@@ -101,8 +101,7 @@ public class Empresa implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Empresa [id=" + id + ", razaoSocial=" + razaoSocial + ", cnpj=" + cnpj + ", dataCriacao = "
-				+ dataCriacao + ", dataAtualizacao = " + dataAtualizacao + "]";
+		return "Empresa [id=" + id + ", razaoSocial=" + razaoSocial + ", cnpj=" + cnpj + ", dataCriacao = " + dataCriacao + ", dataAtualizacao = " + dataAtualizacao + "]";
 	}
 
 }
